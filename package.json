@@ -1,0 +1,12 @@
+{
+  "name": "textsum",
+  "version": "1.0.0",
+  "description": "Summarise a text file from the command line: counts, reading time and most-used words.",
+  "bin": { "textsum": "bin/textsum.js" },
+  "main": "src/summarise.js",
+  "files": ["bin", "src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["cli", "text", "word-count", "summary"],
+  "license": "MIT"
+}
